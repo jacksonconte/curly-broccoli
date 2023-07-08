@@ -1,0 +1,34 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/BattleStyle.uss?fileID=7433441132597879392&amp;guid=2cec3c3432b18492ca0767a576a03b83&amp;type=3#BattleStyle" />
+    <ui:VisualElement name="BuyMenu" style="flex-grow: 1; background-color: rgba(188, 86, 24, 0.84); border-left-width: 15px; border-right-width: 15px; border-top-width: 15px; border-bottom-width: 15px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);">
+        <ui:VisualElement name="Rooms" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); height: 61%; width: 63%; flex-direction: row; justify-content: center; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px; align-items: stretch; align-self: center;">
+            <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/Square%20tile.PNG?fileID=2800000&amp;guid=a823ace9ae3e9ab4f9f6cc6af5119883&amp;type=3#Square tile&apos;); -unity-background-scale-mode: scale-to-fit; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px; height: 100%; width: 0;" />
+            <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/Square%20tile.PNG?fileID=2800000&amp;guid=a823ace9ae3e9ab4f9f6cc6af5119883&amp;type=3#Square tile&apos;); -unity-background-scale-mode: scale-to-fit; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px; height: 100%; width: 0;" />
+            <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/Square%20tile.PNG?fileID=2800000&amp;guid=a823ace9ae3e9ab4f9f6cc6af5119883&amp;type=3#Square tile&apos;); -unity-background-scale-mode: scale-to-fit; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px; height: 100%; width: 0;" />
+            <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/Square%20tile.PNG?fileID=2800000&amp;guid=a823ace9ae3e9ab4f9f6cc6af5119883&amp;type=3#Square tile&apos;); -unity-background-scale-mode: scale-to-fit; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px; height: 100%; width: 0;" />
+            <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/Square%20tile.PNG?fileID=2800000&amp;guid=a823ace9ae3e9ab4f9f6cc6af5119883&amp;type=3#Square tile&apos;); -unity-background-scale-mode: scale-to-fit; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px; height: 100%; width: 0;" />
+            <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/Square%20tile.PNG?fileID=2800000&amp;guid=a823ace9ae3e9ab4f9f6cc6af5119883&amp;type=3#Square tile&apos;); -unity-background-scale-mode: scale-to-fit; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px; height: 100%; width: 0;" />
+            <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Art/Square%20tile.PNG?fileID=2800000&amp;guid=a823ace9ae3e9ab4f9f6cc6af5119883&amp;type=3#Square tile&apos;); -unity-background-scale-mode: scale-to-fit; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px; height: 100%; width: 0;" />
+        </ui:VisualElement>
+        <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="money" style="height: 7%; width: 6%; align-items: center; align-self: flex-end; top: -10%; right: 8%;" />
+        <ui:VisualElement name="BuyFolderSelector" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); width: 17%; align-self: flex-end; height: 76%; top: 10%;">
+            <ui:Button text="Button" display-tooltip-when-elided="true" style="height: 50%; width: 89%;" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" style="height: 50%; width: 89%;" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" style="height: 50%; width: 89%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="BuySelection" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); width: 83%; height: 58%; align-self: flex-start; flex-shrink: 0; justify-content: center; align-items: auto; top: -70px; flex-direction: row; flex-wrap: wrap;">
+            <ui:Button text="Button" display-tooltip-when-elided="true" style="flex-direction: row; align-self: flex-start; width: 14%; height: 34%;" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" style="flex-direction: row; align-self: flex-start; width: 14%; height: 34%;" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" style="flex-direction: row-reverse; align-self: flex-start; width: 14%; height: 34%;" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" style="flex-direction: row-reverse; align-self: flex-start; width: 14%; height: 34%;" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" style="flex-direction: row-reverse; align-self: flex-start; width: 14%; height: 34%;" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" style="flex-direction: row-reverse; align-self: flex-start; width: 14%; height: 34%;" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" style="flex-direction: row; align-self: flex-start; width: 14%; height: 34%;" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" style="flex-direction: row; align-self: flex-start; width: 14%; height: 34%;" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" style="flex-direction: row; align-self: flex-start; width: 14%; height: 34%;" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" style="flex-direction: row; align-self: flex-start; width: 14%; height: 34%;" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" style="flex-direction: row; align-self: flex-start; width: 14%; height: 34%;" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" style="flex-direction: row; align-self: flex-start; width: 14%; height: 34%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
