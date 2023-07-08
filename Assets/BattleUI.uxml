@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: flex-end;">
+        <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+            <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="Money" style="width: 14%; flex-direction: column; left: 85%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="container" style="flex-grow: 0; background-color: rgba(154, 72, 8, 0.76); justify-content: flex-end; flex-basis: 20%; border-top-width: 5px; border-top-color: rgba(0, 0, 0, 0.68); flex-direction: row;">
+            <ui:VisualElement name="Rooms" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 112px; width: 616px; flex-direction: row;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" style="height: 93%; width: 10%; align-items: stretch; flex-direction: row;" />
+                <ui:Button text="Button" display-tooltip-when-elided="true" style="height: 93%; width: 10%; align-items: stretch; flex-direction: row;" />
+                <ui:Button text="Button" display-tooltip-when-elided="true" style="height: 93%; width: 10%; align-items: stretch; flex-direction: row;" />
+                <ui:Button text="Button" display-tooltip-when-elided="true" style="height: 93%; width: 10%; align-items: stretch; flex-direction: row;" />
+                <ui:Button text="Button" display-tooltip-when-elided="true" style="height: 93%; width: 10%; align-items: stretch; flex-direction: row;" />
+                <ui:Button text="Button" display-tooltip-when-elided="true" style="height: 93%; width: 10%; align-items: stretch; flex-direction: row;" />
+                <ui:Button text="Button" display-tooltip-when-elided="true" style="height: 93%; width: 10%; align-items: stretch; flex-direction: row;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="actions" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row-reverse; flex-wrap: nowrap; height: 100%; width: 40%;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" name="block" style="height: 60%; width: 65%;" />
+                <ui:Button text="Button" display-tooltip-when-elided="true" name="attacck" style="height: 60%; width: 65%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
