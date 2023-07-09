@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
 {
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
+    public GameObject mainMenuUI;
     public Array rooms = new Array[7];
     public int money;
     public int round = 0;
@@ -52,10 +53,13 @@ public class GameManager : MonoBehaviour
 
     public void LoadMenu() {
         Debug.Log("Loading Menu...");
+        pauseMenuUI.SetActive(false);
+        mainMenuUI.SetActive(true);
     }
 
     public void QuitGame() {
         Debug.Log("Quiting Game...");
+        Application.Quit();
     }
     
 

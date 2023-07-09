@@ -13,8 +13,12 @@ public class PauseMenu : MonoBehaviour
     {
         VisualElement root = GetComponent<UIDocument>().rootVisualElement;
         Button buttonResume = root.Q<Button>("Resume");
+        Button buttonMenu = root.Q<Button>("Menu");
+        Button buttonQuit = root.Q<Button>("Quit");
 
         buttonResume.clicked += () => manager.Resume();
+        buttonMenu.clicked += () => manager.LoadMenu();
+        buttonQuit.clicked += () => manager.QuitGame();
 
     }
 }
