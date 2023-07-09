@@ -5,10 +5,14 @@ using UnityEngine.UIElements;
 
 public class PauseMenu : MonoBehaviour
 {
-    Button Resume;
+    UIDocument buttonDocument;
+
+
     // Update is called once per frame
-    void Update()
+    void OnEnable()
     {
-        
+        VisualElement root = GetComponent<UIDocument>().rootVisualElement;
+        Button buttonStart = root.Q<Button>("Resume")
+
     }
 }
