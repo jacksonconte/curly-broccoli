@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum GameState { BUYPHASE, COMBATPHASE }
+public enum GameState { MAINMENU, BUYPHASE, COMBATPHASE, TRAPPHASE, PAUSEMENU}
 
 public class GameManager : MonoBehaviour
 {
