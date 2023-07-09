@@ -6,13 +6,15 @@ using UnityEngine.UIElements;
 public class PauseMenu : MonoBehaviour
 {
     UIDocument buttonDocument;
-
+    public GameManager manager;
 
     // Update is called once per frame
     void OnEnable()
     {
         VisualElement root = GetComponent<UIDocument>().rootVisualElement;
-        Button buttonStart = root.Q<Button>("Resume")
+        Button buttonResume = root.Q<Button>("Resume");
+
+        buttonResume.clicked += () => manager.Resume();
 
     }
 }
