@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
 {
     public Array rooms = new Array[7];
     public int money;
+    public int round = 0;
     public GameState state;
 
 
@@ -16,11 +17,14 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         state = GameState.BUYPHASE;
+        BuyPhase();
     }
 
-    // Update is called once per frame
-    void Update()
+    void BuyPhase()
     {
-        
+        // TODO: hide battle UI and show buy UI
+        GameObject battleUI = GameObject.Find("BattleUI");
+        battleUI.SetActive(false);
+        GameObject.Find("BuyUI").SetActive(true);
     }
 }
